@@ -123,8 +123,8 @@ class Potential:
 
         return self.system
 
-lenTime=3600.0*24*30  #sec
-dt=1.0      #sec    
+lenTime=3600.0*24*30  #sec EN 30 días
+dt=100.0      #sec    Paso de 100 segundos
 
 
 sun = Particle([0,0,0],[0,0,0], 2e30)
@@ -158,7 +158,7 @@ n_steps = int(lenTime/dt)
 #C = Particle( [0.0, 0.001, 0.0] , [0.0,0.0,0.0], 1e1)
 
 #particles = [sun,mercury,venus,earth,mars,jupiter,saturn,uranus,neptune,pluto]
-particles = [sun,earth]
+particles = [earth,halley]
 
 twoBody = Potential(particles,dt)
 
@@ -257,6 +257,3 @@ for particle in particles:
 
 
 plt.show()
-
-
-
