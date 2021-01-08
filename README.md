@@ -1,6 +1,6 @@
 # Halley modeling
 Halley's comet n-body modeling and simulation
-## M1000
+## M999X
 ## License: 
 MIT
 ## Authors: 
