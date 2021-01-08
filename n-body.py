@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 unused import
 
 G=6.674e-11         #m^3kg^-1s^-2
-
+#Las unidades deben estar en metros y kilogramos
 class Particle:
     
     def __init__(self, p, v, m, dt=1):
@@ -124,7 +124,7 @@ class Potential:
         return self.system
 
 lenTime=3600.0*24*30  #sec EN 30 días
-dt=100.0      #sec    Paso de 100 segundos
+dt=60.0      #sec    Paso de 60 segundos
 
 
 sun = Particle([0,0,0],[0,0,0], 2e30)
@@ -138,10 +138,12 @@ uranus = Particle([0,2.8e12,0], [6835,0,0], 8.7e25)
 neptune = Particle([0,4.5e12,0], [5477,0,0],1e26)
 pluto = Particle ([0,3.7e12,0], [4748,0,0],1.3e22)
 
-# para nuestor caso seria 
+#def __init__(self, p, v, m, dt=1): 
 earth = Particle([0, 0, 0], [30000, 0, 0], 6e24)
-halley = Particle([0,5.7e10,0], [55000,0,0], 2.2e14) #Suponiendo masa y velocidad igual a Marte
-#The distance of Comet Halley (1P/Halley) from Earth is currently 5,106,196,493 kilometers, equivalent to 34.132815 Astronomical Units.
+#4936729700 m distancia de Halley a la Tierra
+##https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet%27s%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers
+halley = Particle([0,4.93e9,0], [54500,0,0], 2.2e14)
+#¿O redondeamos 4.93 a 5?
 n_steps = int(lenTime/dt)
 
 
