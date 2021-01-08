@@ -141,7 +141,7 @@ pluto = Particle ([0,3.7e12,0], [4748,0,0],1.3e22)
 # para nuestor caso seria 
 earth = Particle([0, 0, 0], [30000, 0, 0], 6e24)
 halley = Particle([0,5.7e10,0], [55000,0,0], 2.2e14) #Suponiendo masa y velocidad igual a Marte
-
+#The distance of Comet Halley (1P/Halley) from Earth is currently 5,106,196,493 kilometers, equivalent to 34.132815 Astronomical Units.
 n_steps = int(lenTime/dt)
 
 
