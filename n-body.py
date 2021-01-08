@@ -138,6 +138,8 @@ uranus = Particle([0,2.8e12,0], [6835,0,0], 8.7e25)
 neptune = Particle([0,4.5e12,0], [5477,0,0],1e26)
 pluto = Particle ([0,3.7e12,0], [4748,0,0],1.3e22)
 
+# para nuestor caso seria 
+earth = Particle([0, 0, 0], [30000, 0, 0], 6e24)
 halley = Particle([0,5.7e10,0], [47000,0,0], 2.2e14) #Suponiendo masa y velocidad igual a Marte
 
 n_steps = int(lenTime/dt)
