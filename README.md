@@ -13,6 +13,6 @@ GNU General Public License v3.0
 ## Installation
 ## Run 
 ## Results:
-## Concluyion
+## Conclution
 ## Software tools:
 ## Bibliography:
