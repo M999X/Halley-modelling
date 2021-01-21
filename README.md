@@ -7,7 +7,7 @@ Halley's comet n-body modeling and simulation
 GNU General Public License v3.0
 ## Authors: 
 - Juan Luis Ruiz Vanegas : juanluisruiz971@gmail.com
-- David Calderon:
+- David Calderon: dcc.david.calderon@gmail.com
 - Cesar Arcos: racec9999@gmail.com
 ## Introduction: 
 > In this project we will make the simulation of Halley's comet passing near the Earth. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis.
