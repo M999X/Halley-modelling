@@ -25,7 +25,7 @@ We follow the next points to resolve this problem:
 ## Initial variables:
 * Earth: 
   * Position: [0, 0, 0]
-  * Mass: 6x10^24 kg
+  * Mass: 6 x 10^24 kg
   * Orbital speed: 30 km/sec
 * Halley's Comet:
   * Position: [0,5e9,0]
@@ -39,22 +39,26 @@ We follow the next points to resolve this problem:
 - Clone the repository:
   > git clone https://github.com/M999X/Halley-modelling.git 
 ## Run:
-Go to the folder of the project and and type on a console  `normal_distance.py` to run the normal distance,`mars_distance.py` for mars distance and `moon_distance.py` fotrthe moon, the program will be executed, and you will get a chart with the halley's trajectory.
+Go to the folder of the project and and type on a console  `python3 normal_distance.py` to run the normal distance,`python3 mars_distance.py` for mars distance and `python3 moon_distance.py` for the moon, the program will be executed, and you will get a chart with the halley's trajectory.
 ## Results:
-* Simualtion 1: Our first result show us that halley's comet pass far away of earth, so do not affect the earth's orbit, in our chart we can watch neither the earth and halle's affects each other orbit, thaths our expected results
+* Simulation 1: Our first result show us that halley's comet pass far away of earth, so do not affect the earth's orbit, in our chart we can watch neither the earth and halle's affects each other orbit, that's our expected results
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance.png)
 * Simulation 2: We simulated the halley's comet with mars distance to earth, we can watch halley's comet create a kind of orbit with earth, we need to simulate it with more time to know how to end this orbit.
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance.png)
-* Simulation 3: We simulated the halley's comet with moon distance to earth, this chart show us a devastating news, if  halley's comet pass at the same distance that moon, will colide throught earth causing the destruction of the humanity.
+* Simulation 3: We simulated the halley's comet with moon distance to earth, this chart show us a devastating news, if  halley's comet passes at the same distance that moon, will collide to earth causing the destruction of humanity.
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance.png)
 ## Conclusion:
-Our results show comet pass far away of earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But, what would happen if pass closer to earth ?.
-If pass at the same distance as mars, halley's comet create a kind of orbit and the comet have more velocity than earth.
-If pass at the same distance as the moon, halley's comet will collide with earth. 
-Thanks to the universe to put halley's comet far away the earth.  
+Our results show comet pass far away from earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But, what would happen if pass closer to earth ?.
+If it passes at the same distance as Mars, Halley's comet creates a kind of orbit and the comet has more velocity than earth.
+If it passes at the same distance as the moon, Halley's comet will collide with earth. 
+Thanks to the universe for putting Halley's comet far away from the earth.  
 ## Bibliography:
 - https://ssd.jpl.nasa.gov/horizons.cgi
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
 - https://en.wikipedia.org/wiki/Halley%27s_Comet
 - https://theskylive.com/how-far-is-halley#:~:text=The%20distance%20of%20Comet%20Halley,equivalent%20to%2034.077709%20Astronomical%20Units.
+
+
+
+
 
