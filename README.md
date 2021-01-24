@@ -14,6 +14,7 @@ GNU General Public License v3.0
 [Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/)
 
 ## Methodology
+We follow the next points to resolve this problem:
 1. Understanding the problem
 2. Formulate hypotheses
 3. Define the type of model to be used
@@ -21,6 +22,15 @@ GNU General Public License v3.0
 5. Perform modeling
 6. Analyze results
 7. Converge the model to a good modeling result.
+## Initial variables:
+* Earth: 
+  * Position: [0, 0, 0]
+  * Mass: 6x10^24 kg
+  * Orbital speed: 30 km/sec
+* Halley's Comet:
+  * Position:[0,4.93e9,0]
+  * Mass: 2.2×10^14 kg
+  * Orbital speed: 54.5 km/sec
 ## Requirements:
 * Python3
 * Matplotlib
