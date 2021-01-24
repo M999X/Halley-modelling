@@ -1,0 +1,6 @@
+Halley has been observed for centuries by different astronomers, but it was not until 1705 that Edmond Halley discovered that the observations corresponded to the same comet.
+During its appearance in 1986, Halley's comet became the first comet to be observed in detail by a spacecraft. 
+This comet can be observed with the naked eye from Earth every 76 years, due to its orbit. 
+The last time it was observed was in 1986 and the next appearance will be in 2061.
+
+In our model we will simulate a change in Halley's orbit, modeling what would happen if the comet passes closer to Earth on its next appearance.
