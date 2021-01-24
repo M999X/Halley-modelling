@@ -30,3 +30,4 @@ GNU General Public License v3.0
 ## Bibliography:
 - https://ssd.jpl.nasa.gov/horizons.cgi
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
+- https://en.wikipedia.org/wiki/Halley%27s_Comet
