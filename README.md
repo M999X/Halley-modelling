@@ -32,7 +32,7 @@ We follow the next points to resolve this problem:
   * Mass: 2.2×10^14 kg
   * Orbital speed: 54.5 km/sec
 ## Requirements:
-* Python3 : ' sudo apt-get install python3.8 '
+* Python3 : <pre><code> sudo apt-get install python3.8 </code></pre>
 * Matplotlib: 'pip3 install mathplotlib'
 * mpl_toolkits.mplot3d: 'pip3 install mpl_toolkits'
 ## Installation:
