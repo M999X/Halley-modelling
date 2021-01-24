@@ -28,7 +28,7 @@ We follow the next points to resolve this problem:
   * Mass: 6x10^24 kg
   * Orbital speed: 30 km/sec
 * Halley's Comet:
-  * Position: [0,4.93e9,0]
+  * Position: [0,5e9,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: 54.5 km/sec
 ## Requirements:
@@ -39,7 +39,7 @@ We follow the next points to resolve this problem:
 - Clone the repository:
   > git clone https://github.com/M999X/Halley-modelling.git 
 ## Run:
-Go to the folder of the project and and type on a console  `python3 n-body.py`, the program will be executed, and you will get a graphic with the halley's trajectory.
+Go to the folder of the project and and type on a console  `normal_distance.py` to run the normal distance,`mars_distance.py` for mars distance and `moon_distance.py` fotrthe moon, the program will be executed, and you will get a chart with the halley's trajectory.
 ## Results:
 * Simualtion 1: Our first result show us that halley's comet pass far away of earth, so do not affect the earth's orbit, in our chart we can watch neither the earth and halle's affects each other orbit, thaths our expected results
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance.png)
