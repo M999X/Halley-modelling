@@ -14,13 +14,13 @@ GNU General Public License v3.0
 [Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/)
 
 ## Methodology
-1. Entender el problema
-2. Formular hipótesis
-3. Definir el tipo de modelo a utilizar
-4. Definir condiciones iniciales
-5. Relizar modelados
-6. Analizar Resultados
-7. Hacer converger el modelo hasta un buen resultado en las modelaciones
+1. Understanding the problem
+2. Formulate hypotheses
+3. Define the type of model to be used
+4. Define initial conditions
+5. Perform modeling
+6. Analyze results
+7. Converge the model to a good modeling result.
 ## Requirements:
 * Python3
 * Matplotlib
