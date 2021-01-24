@@ -162,7 +162,7 @@ n_steps = int(lenTime/dt)
 #C = Particle( [0.0, 0.001, 0.0] , [0.0,0.0,0.0], 1e1)
 
 #particles = [sun,mercury,venus,earth,mars,jupiter,saturn,uranus,neptune,pluto]
-particles = [earth,halley]
+particles = [sun,earth,halley]
 
 twoBody = Potential(particles,dt)
 

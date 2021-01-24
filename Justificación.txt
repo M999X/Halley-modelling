@@ -1,6 +1,0 @@
-Halley ha sido observado durante siglos por diferentes astrónomos, pero fue hasta 1705 que Edmond Halley descubrió que las observaciones correspondían al mismo cometa.
-Durante su aparición en 1986, el cometa Halley se convirtió en el primer cometa observado en detalle por una nave espacial. 
-Este cometa se puede observar a simple vista desde la Tierra cada 76 años, debido a su órbita. 
-La última vez que se pudo observar fue en 1986 y la siguiente aparición será en 2061
-
-En nuestro modelo haremos la simulación de un cambio en la órbita de Halley, modelando qué es lo que pasaría si el cometa pasa más cerca de la Tierra en su siguiente aparición.
