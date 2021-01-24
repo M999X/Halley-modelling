@@ -41,8 +41,11 @@ We follow the next points to resolve this problem:
 ## Run:
 Go to the folder of the project and and type on a console  `python3 n-body.py`, the program will be executed, and you will get a graphic with the halley's trajectory.
 ## Results:
-Our first result show us that halley's comet pass far away of earth, so do not affect the earth's orbit, in our chart we can watch neither the earth and halle's affects each other orbit, thaths our expected results
-![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Modelo-Geocentrico.png)
+* Simualtion 1: Our first result show us that halley's comet pass far away of earth, so do not affect the earth's orbit, in our chart we can watch neither the earth and halle's affects each other orbit, thaths our expected results
+![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance.png)
+* Simulation 2: We simulated the halley's comet with mars distance to earth, we can watch halley's comet create a kind of orbit with earth, we need to simulate it with more time to know how to end this orbit.
+![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance.png)
+* Simulation 3: We simulated the halley's comet with moon distance to earth, this chart show us a devastating news, if  halley's comet pass at the same distance that moon, will colide throught earth causing the destruction of the humanity.
 ## Conclusion:
 Our results show comet pass far away of earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But what would happen if pass closer to earth ?
 ## Bibliography:
