@@ -39,7 +39,7 @@ We follow the next points to resolve this problem:
 - Clone the repository:
   > git clone https://github.com/M999X/Halley-modelling.git 
 ## Run:
-- python3 n-body.py
+Go to the folder of the project and and type on a console  “python3 n-body.py”, the program will be executed, and you will get a graphic with the halley's trajectory.
 ## Results:
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Modelo-Geocentrico.png)
 ## Conclusion:
