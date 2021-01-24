@@ -48,7 +48,10 @@ Go to the folder of the project and and type on a console  `python3 n-body.py`, 
 * Simulation 3: We simulated the halley's comet with moon distance to earth, this chart show us a devastating news, if  halley's comet pass at the same distance that moon, will colide throught earth causing the destruction of the humanity.
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance.png)
 ## Conclusion:
-Our results show comet pass far away of earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But what would happen if pass closer to earth ?
+Our results show comet pass far away of earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But, what would happen if pass closer to earth ?.
+If pass at the same distance as mars, halley's comet create a kind of orbit and the comet have more velocity than earth.
+If pass at the same distance as the moon, halley's comet will collide with earth. 
+Thanks to the universe to put halley's comet far away the earth.  
 ## Bibliography:
 - https://ssd.jpl.nasa.gov/horizons.cgi
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
