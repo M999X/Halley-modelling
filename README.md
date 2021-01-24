@@ -28,13 +28,13 @@ We follow the next points to resolve this problem:
   * Mass: 6x10^24 kg
   * Orbital speed: 30 km/sec
 * Halley's Comet:
-  * Position:[0,4.93e9,0]
+  * Position: [0,4.93e9,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: 54.5 km/sec
 ## Requirements:
-* Python3
-* Matplotlib
-* mpl_toolkits.mplot3d
+* Python3 : ' sudo apt-get install python3.8 '
+* Matplotlib: 'pip3 install mathplotlib'
+* mpl_toolkits.mplot3d: 'pip3 install mpl_toolkits'
 ## Installation:
 - Clone the repository:
   > git clone https://github.com/M999X/Halley-modelling.git 
