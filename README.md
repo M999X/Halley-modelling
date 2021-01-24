@@ -9,7 +9,7 @@ GNU General Public License v3.0
 - David Calderon: dcc.david.calderon@gmail.com
 - Cesar Arcos: racec9999@gmail.com
 ## Introduction: 
-> In this project we will make the simulation of Halley's comet passing near the Earth over a month. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis.
+> In this project we will make the simulation of Halley's comet passing near the Earth over a month. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis with distance such as the moon and mars.
 ***
 [Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/)
 
@@ -56,4 +56,5 @@ Thanks to the universe to put halley's comet far away the earth.
 - https://ssd.jpl.nasa.gov/horizons.cgi
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
 - https://en.wikipedia.org/wiki/Halley%27s_Comet
+- https://theskylive.com/how-far-is-halley#:~:text=The%20distance%20of%20Comet%20Halley,equivalent%20to%2034.077709%20Astronomical%20Units.
 
