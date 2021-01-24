@@ -44,8 +44,9 @@ Go to the folder of the project and and type on a console  `python3 n-body.py`, 
 Our first result show us that halley's comet pass far away of earth, so do not affect the earth's orbit, in our chart we can watch neither the earth and halle's affects each other orbit, thaths our expected results
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Modelo-Geocentrico.png)
 ## Conclusion:
-## Software tools:
+Our results show comet pass far away of earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But what would happen if pass closer to earth ?
 ## Bibliography:
 - https://ssd.jpl.nasa.gov/horizons.cgi
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
 - https://en.wikipedia.org/wiki/Halley%27s_Comet
+
