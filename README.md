@@ -9,7 +9,7 @@ GNU General Public License v3.0
 - David Calderon: dcc.david.calderon@gmail.com
 - Cesar Arcos: racec9999@gmail.com
 ## Introduction: 
-> In this project we will make the simulation of Halley's comet passing near the Earth. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis. We simulated our model 1 month with a dt of  60 sec.
+> In this project we will make the simulation of Halley's comet passing near the Earth over a month. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis.
 ***
 [Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/)
 
