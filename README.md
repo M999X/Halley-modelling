@@ -2,7 +2,6 @@
 ![a4](https://cdn.mos.cms.futurecdn.net/zzCKzkAndgXbTKNoKCUqu9-970-80.jpg.webp)
 
 Halley's comet n-body modeling and simulation
-## M999X
 ## License: 
 GNU General Public License v3.0
 ## Authors: 
@@ -14,7 +13,7 @@ GNU General Public License v3.0
 ***
 [Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/)
 
-
+## Methodology
 ## Requirements:
 * Python3
 * Matplotlib
