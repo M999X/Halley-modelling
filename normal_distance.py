@@ -125,7 +125,7 @@ class Potential:
         return self.system
 
 lenTime=3600.0*24*30  #sec EN 30 días
-dt=60.0      #sec    Paso de 60 segundos
+dt=60     #sec    Paso de 60 segundos
 
 
 #sun = Particle([0,0,0],[0,0,0], 2e30)
@@ -260,10 +260,9 @@ for particle in particles:
 #ax[2].grid()
 
 
-plt.title('Halley Speed = 54.5 km/sec, Halley Position = [0,5e9,0]\n Earth Speed= 30 km/sec, Earth Position = [0,0,0]')
+plt.title('Halley Speed = 54.5 km/sec, Halley Position = [0,5e9,0]\n Earth Speed = 30 km/sec, Earth Position = [0,0,0], dt = 60 ')
 fig.suptitle('Normal Distance 1 Month')
 red_patch = mpatches.Patch(color='red', label='Halley\'s comet')
 green_patch = mpatches.Patch(color='green', label='Earth')
 plt.legend(handles=[red_patch,green_patch],loc='lower left')
 plt.show()
-
