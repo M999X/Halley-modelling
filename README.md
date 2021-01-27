@@ -50,11 +50,11 @@ We follow the next points to resolve this problem:
 Go to the folder of the project and and type on a console  `python3 normal_distance.py` to run the normal distance,`python3 mars_distance.py` for mars distance and `python3 moon_distance.py` for the moon, the program will be executed, and you will get a chart with the halley's trajectory.
 ## Results:
 * Simulation 1: Our first result show us that halley's comet pass far away of earth, so do not affect the earth's orbit, in our chart we can watch neither the earth and halle's affects each other orbit, that's our expected results
-![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance.png)
+![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance1.png)
 * Simulation 2: We simulated the halley's comet with mars distance to earth, we can watch halley's comet create a kind of orbit with earth, we need to simulate it with more time to know how to end this orbit.
-![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance.png)
+![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance1.png)
 * Simulation 3: We simulated the halley's comet with moon distance to earth, this chart show us a devastating news, if  halley's comet passes at the same distance that moon, will collide to earth causing the destruction of humanity.
-![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance.png)
+![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance1.png)
 ## Conclusion:
 Our results show comet pass far away from earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But, what would happen if pass closer to earth ?.
 If it passes at the same distance as Mars, Halley's comet creates a kind of orbit and the comet has more velocity than earth.
