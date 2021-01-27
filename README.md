@@ -24,9 +24,16 @@ Halley is a short-period comet with origin in the so-called Kuiper belt beyond t
 ## Methodology
 We follow the next points to resolve this problem:
 1. Understanding the problem
+ > Halley's comet has a trajectory that allows it to pass close to Earth every 76 years. The conditions of distance to the Earth, its weight and speed allow its orbit to be in equilibrium.  
 2. Formulate hypotheses
+¿Qué pasaría si por una perturbación 
+>What would happen if a disturbance in Halley's orbit caused it to come closer to Earth during its path?
+Our hypothesis is that it will be attracted by the Earth's attractive field.
 3. Define the type of model to be used
+> We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.
 4. Define initial conditions
+
+
 5. Perform modeling
 6. Analyze results
 7. Converge the model to a good modeling result.
