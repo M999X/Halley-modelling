@@ -19,7 +19,7 @@ Halley is a short-period comet with origin in the so-called Kuiper belt beyond t
 
 > -In this project we will make the simulation of Halley's comet passing near the Earth over a month. 
 ***
-[Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/) (http://solarsystem.nasa.gov/planets/profile.cfm?Object=Comets&Display=OverviewLong)(https://www.nationalgeographic.es/espacio/cometas-y-asteroides)
+[Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/) (http://solarsystem.nasa.gov/planets/profile.cfm?Object=Comets&Display=OverviewLong) (https://www.nationalgeographic.es/espacio/cometas-y-asteroides)
 
 ## Methodology
 We follow the next points to resolve this problem:
@@ -31,9 +31,8 @@ We follow the next points to resolve this problem:
 Our hypothesis is that it will be attracted by the Earth's attractive field.
 3. Define the type of model to be used
 > We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.
+
 4. Define initial conditions
-
-
 5. Perform modeling
 6. Analyze results
 7. Converge the model to a good modeling result.
