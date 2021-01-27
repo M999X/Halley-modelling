@@ -19,6 +19,7 @@
 import math
 import matplotlib
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 unused import
 
 G=6.674e-11         #m^3kg^-1s^-2
@@ -259,5 +260,10 @@ for particle in particles:
 #ax[2].grid()
 
 
-
+plt.title('Halley Speed = 54.5 km/sec, Halley Position = [0,3.8e5,0]\n Earth Speed= 30 km/sec, Earth Position = [0,0,0]')
+fig.suptitle('Moon Distance 1 Month')
+red_patch = mpatches.Patch(color='red', label='Halley\'s comet')
+green_patch = mpatches.Patch(color='green', label='Earth')
+plt.legend(handles=[red_patch,green_patch],loc='lower left')
 plt.show()
+

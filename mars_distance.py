@@ -19,6 +19,7 @@
 import math
 import matplotlib
 import matplotlib.pyplot as plt
+import matplotlib.patches as mpatches
 from mpl_toolkits.mplot3d import Axes3D  # noqa: F401 unused import
 
 G=6.674e-11         #m^3kg^-1s^-2
@@ -123,7 +124,7 @@ class Potential:
 
         return self.system
 
-lenTime=3600.0*24*30  #sec EN 30 días
+lenTime=3600.0*24*30  #sec EN 30 días 
 dt=60.0      #sec    Paso de 60 segundos
 
 
@@ -139,7 +140,7 @@ dt=60.0      #sec    Paso de 60 segundos
 #pluto = Particle ([0,3.7e12,0], [4748,0,0],1.3e22)
 
 #def __init__(self, p, v, m, dt=1): 
-earth = Particle([0, 0, 0], [30000, 0, 0], 6e24)
+earth = Particle([0, 0, 0], [30000, 0, 0], 6e24)#6
 #4936729700 m distancia de Halley a la Tierra
 ##https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet%27s%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers
 halley = Particle([0,5.4e7,0], [54500,0,0], 2.2e14)
@@ -257,7 +258,10 @@ for particle in particles:
 #ax[2].plot(x,a)
 #ax[2].set(xlabel='time [sec]', ylabel='acceleration [km/s^2]')
 #ax[2].grid()
-
-
-
+plt.title('Halley Speed = 54.5 km/sec, Halley Position = [0,5.4e7,0]\n Earth Speed= 30 km/sec, Earth Position = [0,0,0]')
+fig.suptitle('Mars Distance 1 Month')
+red_patch = mpatches.Patch(color='red', label='Halley\'s comet')
+green_patch = mpatches.Patch(color='green', label='Earth')
+plt.legend(handles=[red_patch,green_patch],loc='lower left')
 plt.show()
+
