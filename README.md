@@ -9,13 +9,13 @@ GNU General Public License v3.0
 - David Calderon: dcc.david.calderon@gmail.com
 - Cesar Arcos: racec9999@gmail.com
 ## Introduction: 
->- #### What is a comet?
-Comets are remnants from the beginning of the solar system, about 4.6 billion years ago. They are balls of rock and ice that form tails as they approach the sun during their perfect elliptical orbits. When comets heat up, they eject gas and dust, forming a trail behind them. The sun illuminates this trail, making it glow.
+#### What is a comet?
+>- Comets are remnants from the beginning of the solar system, about 4.6 billion years ago. They are balls of rock and ice that form tails as they approach the sun during their perfect elliptical orbits. When comets heat up, they eject gas and dust, forming a trail behind them. The sun illuminates this trail, making it glow.
 
 Each comet has a small frozen part called a nucleus. The nucleus contains chunks of ice and frozen gases with bits of rocks and dust embedded in them. The nucleus may have a small rocky interior.
 
->- #### Halley comet
-Halley is a short-period comet with origin in the so-called Kuiper belt beyond the orbit of Neptune. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis with distance such as the moon and mars.
+#### Halley comet
+>- Halley is a short-period comet with origin in the so-called Kuiper belt beyond the orbit of Neptune. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis with distance such as the moon and mars.
 
 > -In this project we will make the simulation of Halley's comet passing near the Earth over a month. 
 ***
@@ -37,12 +37,31 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
 6. Analyze results
 7. Converge the model to a good modeling result.
 ## Initial variables:
+### Modelation 1 (Normal Distance)
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
   * Orbital speed: [30000,0,0] 30 km/sec
 * Halley's Comet:
   * Position: [0,5e9,0]
+  * Mass: 2.2×10^14 kg
+  * Orbital speed: [54500,0,0] 54.5 km/sec 
+### Modelation 2 (Mars Distance)
+* Earth: 
+  * Position: [0, 0, 0]
+  * Mass: 6 x 10^24 kg
+  * Orbital speed: [30000,0,0] 30 km/sec
+* Halley's Comet:
+  * Position: [0,5.4e7,0]
+  * Mass: 2.2×10^14 kg
+  * Orbital speed: [54500,0,0] 54.5 km/sec 
+### Modelation 3 (Moon Distance)
+* Earth: 
+  * Position: [0, 0, 0]
+  * Mass: 6 x 10^24 kg
+  * Orbital speed: [30000,0,0] 30 km/sec
+* Halley's Comet:
+  * Position: [0,3.8e5,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 ## Requirements:
