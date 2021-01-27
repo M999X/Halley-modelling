@@ -57,7 +57,8 @@ Go to the folder of the project and and type on a console  `python3 normal_dista
 ## Results:
 * Simulation 1: Our first result show us that halley's comet pass far away of earth 5,097,768,243 kilometers to be precise, so do not affect the earth's orbit, in our chart we can watch neither the earth and halley's affects each other orbit, that's our expected results
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance1.png)
-* Simulation 2: We simulated the halley's comet with mars distance to earth 54.6 million kilometers , we can watch halley's comet create a kind of orbit with earth, we simulated with 7 months and halleys will crash into the earth, maybe if we add more particles to our model the comet will be atracted to other body.
+* Simulation 2: We simulated the halley's comet with mars distance to earth 54.6 million kilometers , we can watch halley's comet create a kind of orbit with earth, we simulated with 7 months and halleys will crash into the earth, maybe if we add more particles to our model the comet will be atracted to other body.<br>
+
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance1.png)
 * Simulation 3: We simulated the halley's comet with moon distance to earth 384,400 km , this chart show us a devastating news, if  halley's comet passes at the same distance that moon, will collide to earth causing the destruction of humanity.
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance1.png)
