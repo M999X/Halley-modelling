@@ -26,11 +26,11 @@ We follow the next points to resolve this problem:
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
-  * Orbital speed: 30 km/sec
+  * Orbital speed: [30000,0,0] 30 km/sec
 * Halley's Comet:
   * Position: [0,5e9,0]
   * Mass: 2.2×10^14 kg
-  * Orbital speed: 54.5 km/sec
+  * Orbital speed: [54500,0,0] 54.5 km/sec 
 ## Requirements:
 * Python3 : `sudo apt-get install python3.8` 
 * Matplotlib: `pip3 install mathplotlib`
