@@ -34,13 +34,14 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
 > We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.
 
 4. Define initial conditions
+ > Described below
 5. Perform modeling
-  * Described below
+  > Described below
 6. Analyze results
-  * Described below
+  > Described below
 7. Converge the model to a good 
 modeling result.
-  * Described below
+  > Described below
 ## Initial variables:
 dt stands for delta-time, which is the time in seconds that elapses between integrations.
 ### Simulation 1 (Normal Distance)
