@@ -103,10 +103,17 @@ Go to the folder of the project and and type on a console  `python3 normal_dista
 * Simulation 3: We simulated the halley's comet with moon distance to earth 384,400 km , this chart show us a devastating news, if  halley's comet passes at the same distance that moon, will collide to earth causing the destruction of humanity.<br>
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance1.png)
 ## Conclusion:
-Our results show comet pass far away from earth and do not affect earth.The comet's closest approach to Earth occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). But, what would happen if pass closer to earth ?.
-If it passes at the same distance as Mars, Halley's comet creates a kind of orbit and the comet has more velocity than earth.
-If it passes at the same distance as the moon, Halley's comet will collide with earth. 
-Thanks to the universe for putting Halley's comet far away from the earth.  
+This modeling is important because it allows us to understand what happens with different initial conditions of Halley's Comet, such as its position with respect to the Earth, taking the Earth as a frame of reference. 
+
+* All modeling, from the beginning to the end, contemplates a time span of 30 days.
+
+Our results from the first modeling show that the comet passes far away from the Earth and does not affect the Earth. This simulation was done with data from the comet's closest recorded approach to Earth, which occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). 
+
+But what would happen if it passed closer to Earth?
+
+In our second modeling, Our initial Halley-Earth distance conditions are the same as the Mars-Earth distance. Our results indicate that Halley's comet creates a kind of orbit around the Earth, originated by the Earth's attractive force. It also denotes that the comet has more velocity than the Earth.
+
+In our third simulation, if the distance of the comet to the Earth is the same as the average distance between the moon and the Earth, Halley's comet will collide with the Earth. 
 ## Bibliography:
 - https://ssd.jpl.nasa.gov/horizons.cgi
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
