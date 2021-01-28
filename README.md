@@ -57,7 +57,7 @@ dt stands for delta-time, which is the time in seconds that elapses between inte
   * Position: [0,5.4e7,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
-dt = 60
+* dt = 60
 ### Modelation 3 (Moon Distance)
 * Earth: 
   * Position: [0, 0, 0]
