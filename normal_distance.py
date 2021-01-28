@@ -260,7 +260,7 @@ for particle in particles:
 #ax[2].grid()
 
 
-plt.title('Halley Speed = 54.5 km/sec, Halley Position = [0,5e9,0]\n Earth Speed = 30 km/sec, Earth Position = [0,0,0], dt = 60 ')
+plt.title('Halley Speed = [54500,0,0], Halley Position = [0,5e9,0]\n Earth Speed = [30000,0,0], Earth Position = [0,0,0], dt = 60 ')
 fig.suptitle('Normal Distance 1 Month')
 red_patch = mpatches.Patch(color='red', label='Halley\'s comet')
 green_patch = mpatches.Patch(color='green', label='Earth')
