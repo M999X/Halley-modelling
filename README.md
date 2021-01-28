@@ -25,11 +25,13 @@ We hope to get realistic experiments for the near future be ready to destroy ast
 ## Methodology
 We follow the next points to resolve this problem:
 1. Understanding the problem
- > Halley's comet has a trajectory that allows it to pass close to Earth every 76 years. The conditions of distance to the Earth, its weight and speed allow its orbit to be in balance. But when does comet break the balance?
+ > Halley's comet has a trajectory that allows it to pass close to the Earth every 76 years. The conditions of distance from Earth, its weight, and its speed allow its orbit to be in equilibrium. But when does the equilibrium of the orbit break down and its trajectory gets closer to the Earth, at a distance equal to that of Mars or the Moon? Will the attractive force of the Earth be sufficient for Halley to impact with it?
+
+
 2. Formulate hypotheses
-¿Qué pasaría si por una perturbación 
->What would happen if a disturbance in Halley's orbit caused it to come closer to Earth during its path?
-Our hypothesis is that it will be attracted by the Earth's attractive field.
+>What would happen if a disturbance in Halley's orbit caused it to approach the Earth during its trajectory?
+We hypothesize that with a closer distance (far distance equal to the Moon and Mars), the attractive force of the Earth will cause Halley's comet to modify its orbit, colliding with the Earth.
+
 3. Define the type of model to be used
 > We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.The force of attraction between two masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. So as it says Newton's first law
 that an object at rest will stay at rest, and an object in motion will stay in motion unless acted on by a net external force, therefore one of our particle will atract to the other affecting its orbit.
