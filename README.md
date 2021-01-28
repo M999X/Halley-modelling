@@ -25,7 +25,7 @@ We hope to get realistic experiments for the near future be ready to destroy ast
 ## Methodology
 We follow the next points to resolve this problem:
 1. Understanding the problem
- > Halley's comet has a trajectory that allows it to pass close to Earth every 76 years. The conditions of distance to the Earth, its weight and speed allow its orbit to be in equilibrium.  
+ > Halley's comet has a trajectory that allows it to pass close to Earth every 76 years. The conditions of distance to the Earth, its weight and speed allow its orbit to be in balance. But when does comet break the balance?
 2. Formulate hypotheses
 ¿Qué pasaría si por una perturbación 
 >What would happen if a disturbance in Halley's orbit caused it to come closer to Earth during its path?
