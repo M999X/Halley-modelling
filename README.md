@@ -34,8 +34,12 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
 
 4. Define initial conditions
 5. Perform modeling
+  * Described below
 6. Analyze results
-7. Converge the model to a good modeling result.
+  * Described below
+7. Converge the model to a good 
+modeling result.
+  * Described below
 ## Initial variables:
 dt stands for delta-time, which is the time in seconds that elapses between integrations.
 ### Simulation 1 (Normal Distance)
