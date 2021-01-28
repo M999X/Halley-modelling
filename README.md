@@ -33,7 +33,7 @@ We hypothesize that with a closer distance (far distance equal to the Moon and M
 
 3. Define the type of model to be used
 > We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.The force of attraction between two masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. So as it says Newton's first law
-that an object at rest will stay at rest, and an object in motion will stay in motion unless acted on by a net external force, therefore one of our particle will atract to the other affecting its orbit.
+that an object at rest will stay at rest, and an object in motion will stay in motion unless acted on by a net external force, therefore one of our particles will attract to the other affecting its orbit.
 
 4. Define initial conditions
  > Described below
@@ -135,6 +135,7 @@ Thanks to the universe for putting Halley's comet far away from the earth.
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
 - https://en.wikipedia.org/wiki/Halley%27s_Comet
 - https://theskylive.com/how-far-is-halley#:~:text=The%20distance%20of%20Comet%20Halley,equivalent%20to%2034.077709%20Astronomical%20Units.
+
 
 
 
