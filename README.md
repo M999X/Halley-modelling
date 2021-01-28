@@ -37,6 +37,7 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
 6. Analyze results
 7. Converge the model to a good modeling result.
 ## Initial variables:
+dt stands for delta-time, which is the time in seconds that elapses between integrations.
 ### Modelation 1 (Normal Distance)
 * Earth: 
   * Position: [0, 0, 0]
@@ -46,6 +47,7 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
   * Position: [0,5e9,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
+* dt = 60
 ### Modelation 2 (Mars Distance)
 * Earth: 
   * Position: [0, 0, 0]
@@ -55,6 +57,7 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
   * Position: [0,5.4e7,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
+dt = 60
 ### Modelation 3 (Moon Distance)
 * Earth: 
   * Position: [0, 0, 0]
@@ -64,6 +67,7 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
   * Position: [0,3.8e5,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
+* dt = 3.49
 ## Requirements:
 * Python3 : `sudo apt-get install python3.8` 
 * Matplotlib: `pip3 install mathplotlib`
