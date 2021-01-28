@@ -38,7 +38,7 @@ Our hypothesis is that it will be attracted by the Earth's attractive field.
 7. Converge the model to a good modeling result.
 ## Initial variables:
 dt stands for delta-time, which is the time in seconds that elapses between integrations.
-### Modelation 1 (Normal Distance)
+### Simulation 1 (Normal Distance)
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
@@ -48,7 +48,7 @@ dt stands for delta-time, which is the time in seconds that elapses between inte
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
-### Modelation 2 (Mars Distance)
+### Simulation 2 (Mars Distance)
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
@@ -58,7 +58,7 @@ dt stands for delta-time, which is the time in seconds that elapses between inte
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
-### Modelation 3 (Moon Distance)
+### Simulation 3 (Moon Distance)
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
