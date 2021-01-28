@@ -31,7 +31,8 @@ We follow the next points to resolve this problem:
 >What would happen if a disturbance in Halley's orbit caused it to come closer to Earth during its path?
 Our hypothesis is that it will be attracted by the Earth's attractive field.
 3. Define the type of model to be used
-> We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.
+> We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.The force of attraction between two masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. So as it says Newton's first law
+that an object at rest will stay at rest, and an object in motion will stay in motion unless acted on by a net external force, therefore one of our particle will atract to the other affecting its orbit.
 
 4. Define initial conditions
  > Described below
