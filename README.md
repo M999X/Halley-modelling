@@ -46,8 +46,11 @@ that an object at rest will stay at rest, and an object in motion will stay in m
 modeling result.
   > Described below
 ## Initial variables:
-dt stands for delta-time, which is the time in seconds that elapses between integrations.
+* *dt* stands for delta-time, which is the time in seconds that elapses between integrations.
+* All simulations were made using the Earth as a reference framework.
 ### Simulation 1 (Normal Distance)
+* Reference: 
+> The comet's closest approach to Earth occurred in 837: https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/ 
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
@@ -58,6 +61,8 @@ dt stands for delta-time, which is the time in seconds that elapses between inte
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
 ### Simulation 2 (Mars Distance)
+* Reference:
+> The minimum distance from Earth to Mars (2003): https://mars.nasa.gov/all-about-mars/night-sky/close-approach/ 
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
@@ -68,6 +73,8 @@ dt stands for delta-time, which is the time in seconds that elapses between inte
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
 ### Simulation 3 (Moon Distance)
+* Reference:
+> Average distance from Earth: https://www.space.com/18145-how-far-is-the-moon.html 
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
