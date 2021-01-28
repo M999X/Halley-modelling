@@ -113,7 +113,23 @@ But what would happen if it passed closer to Earth?
 
 In our second modeling, Our initial Halley-Earth distance conditions are the same as the Mars-Earth distance. Our results indicate that Halley's comet creates a kind of orbit around the Earth, originated by the Earth's attractive force. It also denotes that the comet has more velocity than the Earth.
 
-In our third simulation, if the distance of the comet to the Earth is the same as the average distance between the moon and the Earth, Halley's comet will collide with the Earth. 
+In our third simulation, if the distance of the comet to the Earth is the same as the average distance between the moon and the Earth, Halley's comet will collide with the Earth.
+The different results, caused by changes in the initial condition of the distances between the two bodies, are the result of the action of the Earth's attractive force on Halley's comet. The closer they are to each other, the stronger the Force of Attraction will increase.
+This modeling is important because it allows us to understand what happens with different initial conditions of Halley's Comet, such as its position with respect to the Earth, taking the Earth as a frame of reference. 
+
+* All modeling, from the beginning to the end, contemplates a time span of 30 days.
+
+Our results from the first modeling show that the comet passes far away from the Earth and does not affect the Earth. This simulation was done with data from the comet's closest recorded approach to Earth, which occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). 
+
+But what would happen if it passed closer to Earth?
+
+In our second modeling, Our initial Halley-Earth distance conditions are the same as the Mars-Earth distance. Our results indicate that Halley's comet creates a kind of orbit around the Earth, originated by the Earth's attractive force. It also denotes that the comet has more velocity than the Earth.
+
+In our third simulation, if the distance of the comet to the Earth is the same as the average distance between the moon and the Earth, Halley's comet will collide with the Earth.
+
+The different results, caused by changes in the initial condition of the distances between the two bodies, are the result of the action of the Earth's attractive force on Halley's comet. The closer they are to each other, the stronger the Force of Attraction will increase.
+Thanks to the universe for putting Halley's comet far away from the earth.
+
 ## Bibliography:
 - https://ssd.jpl.nasa.gov/horizons.cgi
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
