@@ -19,7 +19,7 @@ Each comet has a small frozen part called a nucleus. The nucleus contains chunks
 ***
 [Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/) (http://solarsystem.nasa.gov/planets/profile.cfm?Object=Comets&Display=OverviewLong) (https://www.nationalgeographic.es/espacio/cometas-y-asteroides)
 ## Goals:
-Our goal is to simulated the halley's comet trajectory with differents distance, which are mars distance, moon distance and our main experiment the crash distance 3e6, why 3e6?.<br>
+Our goal is to simulated the halley's comet trajectory with differents distance, which are mars distance, moon distance and our main experiment the crash distance 3e6, why 3e6?For the reason that PHOs is one of the closest bodies  have a minimum orbital intersection distance of less than 0.05 au, about 7.5 million km from the Earth’s orbit, measuring more than 140 metres across. An object of this size is large enough to cause devastation on a regional scale with possible global consequences. Therefore imagine the devastation on the planet if Halley’s comet is attracted by earth.<br>
 We hope to get realistic experiments for the near future be ready to destroy asteroids.
 ## Methodology
 We follow the next points to resolve this problem:
