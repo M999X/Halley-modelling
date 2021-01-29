@@ -48,7 +48,8 @@ The force of attraction between two masses is directly proportional to the produ
 7. Converge the model to a good 
 modeling result.
   > Described below
-## Initial variables:
+## Initial conditions:
+All simulations were made using the Earth as a reference framework
 * *dt* stands for delta-time, which is the time in seconds that elapses between integrations.
 * All simulations were made using the Earth as a reference framework.
 * The values of *dt* were selected empirically ensuring that each modeling converged to an expected result.
@@ -58,7 +59,7 @@ modeling result.
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
-  * Orbital speed: [30000,0,0] 30 km/sec
+  * Orbital speed: [0,0,0] 30 km/sec
 * Halley's Comet:
   * Position: [0,5e9,0]
   * Mass: 2.2×10^14 kg
@@ -70,7 +71,7 @@ modeling result.
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
-  * Orbital speed: [30000,0,0] 30 km/sec
+  * Orbital speed: [0,0,0] 30 km/sec
 * Halley's Comet:
   * Position: [0,5.4e7,0]
   * Mass: 2.2×10^14 kg
@@ -82,7 +83,7 @@ modeling result.
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
-  * Orbital speed: [30000,0,0] 30 km/sec
+  * Orbital speed: [0,0,0] 30 km/sec
 * Halley's Comet:
   * Position: [0,3.8e5,0]
   * Mass: 2.2×10^14 kg
