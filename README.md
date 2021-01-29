@@ -94,24 +94,24 @@ modeling result.
 ## Run:
 Go to the folder of the project and and type on a console  `python3 normal_distance.py` to run the normal distance,`python3 mars_distance.py` for mars distance and `python3 moon_distance.py` for the moon, the program will be executed, and you will get a chart with the halley's trajectory.
 ## Results:
+* All modeling, from the beginning to the end, contemplates a time span of 30 days.
+
 * Simulation 1: Our first result show us that halley's comet pass far away of earth 5,097,768,243 kilometers to be precise, so do not affect the earth's orbit, in our chart we can watch neither the earth and halley's affects each other orbit, that's our expected results.<br>
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance1.png)
-* Simulation 2: We simulated the halley's comet with mars distance to earth 54.6 million kilometers , we can watch halley's comet create a kind of orbit with earth, we simulated with 7 months and halleys will crash into the earth, maybe if we add more particles to our model the comet will be attracted to other body.<br>
+
+* Simulation 2: We simulated the halley's comet with mars distance to earth 54.6 million kilometers , we can watch halley's comet create a kind of orbit with earth,originated by the Earth's attractive force. We also simulated with 7 months and halleys will crash into the earth, maybe if we add more particles to our model the comet will be attracted to other body.<br>
 
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance1.png)
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance7.png)
+
 * Simulation 3: We simulated the halley's comet with moon distance to earth 384,400 km , this chart show us a devastating news, if  halley's comet passes at the same distance that moon, will collide to earth causing the destruction of humanity.<br>
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance1.png)
 ## Conclusion:
 This modeling is important because it allows us to understand what happens with different initial conditions of Halley's Comet, such as its position with respect to the Earth, taking the Earth as a frame of reference. 
 
-* All modeling, from the beginning to the end, contemplates a time span of 30 days.
-
-Our results from the first modeling show that the comet passes far away from the Earth and does not affect the Earth. This simulation was done with data from the comet's closest recorded approach to Earth, which occurred in 837, at a distance of 0.033 AU (3.07 million miles or 4.94 million kilometers). 
-
 But what would happen if it passed closer to Earth?
 
-In our second modeling, Our initial Halley-Earth distance conditions are the same as the Mars-Earth distance. Our results indicate that Halley's comet creates a kind of orbit around the Earth, originated by the Earth's attractive force. It also denotes that the comet has more velocity than the Earth.
+As we could observe in the result of our second modeling, if the distance between both bodies (Earth and Halley) tends to reduce, Halley's velocity increases due to the attractive force that the Earth exerts on it.
 
 In our third simulation, if the distance of the comet to the Earth is the same as the average distance between the moon and the Earth, Halley's comet will collide with the Earth.
 The different results, caused by changes in the initial condition of the distances between the two bodies, are the result of the action of the Earth's attractive force on Halley's comet. The closer they are to each other, the stronger the Force of Attraction will increase.
