@@ -60,7 +60,7 @@ modeling result.
   * Mass: 6 x 10^24 kg
   * Orbital speed: [0,0,0] 30 km/sec
 * Halley's Comet:
-  * Position: [0,5e9,0]
+  * Position: [0, 4.93e5,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
@@ -98,7 +98,7 @@ modeling result.
 ## Run:
 Go to the folder of the project and and type on a console  `python3 normal_distance.py` to run the normal distance,`python3 mars_distance.py` for mars distance and `python3 moon_distance.py` for the moon, the program will be executed, and you will get a chart with the halley's trajectory.
 ## Results:
-* All modeling, from the beginning to the end, contemplates a time span of 30 days.
+* All modeling, from the beginning to the end, contemplates a time span of 1 month.
 
 * Simulation 1: Our first result show us that halley's comet pass far away of earth 5,097,768,243 kilometers to be precise, so do not affect the earth's orbit, in our chart we can watch neither the earth and halley's affects each other orbit, that's our expected results.<br>
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_normal_distance1.png)
