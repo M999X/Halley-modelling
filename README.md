@@ -109,7 +109,7 @@ Go to the folder of the project and and type on a console  `python3 normal_dista
 ## Conclusion:
 This modeling is important because it allows us to understand what happens with different initial conditions of Halley's Comet, such as its position with respect to the Earth, taking the Earth as a frame of reference. 
 
-This allows us to answer the question, What would happen if Halley approached Earth at a distance equal to that of Mars or Earth, described above?
+This model allows us to answer the question, What would happen if Halley approached Earth at a distance equal to that of Mars or Earth, described above?
 
 The different results, caused by changes in the initial condition of the distances between the two bodies, are the result of the action of the Earth's attractive force on Halley's comet. The closer they are to each other, the stronger the Force of Attraction will increase.
 
