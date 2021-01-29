@@ -115,7 +115,7 @@ modeling result.
 - Clone the repository:
   > git clone https://github.com/M999X/Halley-modelling.git 
 ## Run:
-Go to the folder of the project and and type on a console  `python3 normal_distance.py` to run the normal distance,`python3 mars_distance.py` for mars distance and `python3 moon_distance.py` for the moon, the program will be executed, and you will get a chart with the halley's trajectory.
+Go to the folder of the project and and type on a console  `python3 normal_distance.py` to run the normal distance, `python3 mars_distance.py` for mars distance,`python3 moon_distance.py` for moon distance, `python3 attract_distance.py` for attraction distance, and `python3 crash_distance.py` for the crash into earth, the program will be executed, and you will get a chart with the halley's trajectory.
 ## Results:
 * All modeling, from the beginning to the end, contemplates a time span of 1 month.
 
@@ -149,7 +149,7 @@ Thanks to the universe for putting Halley's comet far away from the earth.
 - https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet's%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers).
 - https://en.wikipedia.org/wiki/Halley%27s_Comet
 - https://theskylive.com/how-far-is-halley#:~:text=The%20distance%20of%20Comet%20Halley,equivalent%20to%2034.077709%20Astronomical%20Units.
-
+- https://www.unoosa.org/oosa/en/ourwork/topics/neos/index.html#:~:text=A%20near%2DEarth%20object%20is,kilometres%2C%20of%20the%20Earth's%20orbit.
 
 
 
