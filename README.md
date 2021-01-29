@@ -32,8 +32,12 @@ We follow the next points to resolve this problem:
 We hypothesize that with a closer distance (far distance equal to the Moon and Mars), the attractive force of the Earth will cause Halley's comet to modify its orbit, colliding with the Earth.
 
 3. Define the type of model to be used
-> We will simulate an n-body system with Halley and the Earth as particles on which gravitational attraction forces act.The force of attraction between two masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. So as it says Newton's first law
-that an object at rest will stay at rest, and an object in motion will stay in motion unless acted on by a net external force, therefore one of our particles will attract to the other affecting its orbit.
+* We will use a simulation system of n-bodies of particles under the influence of the Force of Attraction of the particles involved in the system. In this case Halley and the Earth will be those particles on which Gravitational attraction forces act.
+Our simulation is a direct N-body fravitational simulation. Our equations of motion under the influence of mutual gravitational force are integrated numerically.
+
+> Force of Attraction (Gravitational Force)
+Two bodies, by the fact of having mass, experience a force of attraction towards other bodies with mass.
+The force of attraction between two masses is directly proportional to the product of their masses and inversely proportional to the square of the distance between their centers. So as Newton's first law says that an object at rest will remain at rest, and an object in motion will remain in motion unless acted upon by a net external force, therefore one of our particles will attract the other affecting its orbit.
 
 4. Define initial conditions
  > Described below
