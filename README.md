@@ -134,6 +134,7 @@ Go to the folder of the project and and type on a console  `python3 normal_dista
 In the fourth simulation, we bring Halley's comet to a distance one order of magnitude closer to the Earth, and here the impact of the Earth's attractive force on the comet is already noticeable, modifying its orbit considerably.
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_attract_distance1.png)
 * Simulation 5 (Crash Distance):
+In our latest simulation we lowered our simulation by one more order of magnitude and, unlike the previous one, this distance is sufficient to attract Halley to a point where it would collide with the Earth.
 ![Test Image 5](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_crash_distance1.png)
 
 ## Conclusion:
