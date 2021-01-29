@@ -14,12 +14,12 @@ GNU General Public License v3.0
 
 Each comet has a small frozen part called a nucleus. The nucleus contains chunks of ice and frozen gases with bits of rocks and dust embedded in them. The nucleus may have a small rocky interior.
 #### Halley comet
->- Halley is a short-period comet with origin in the so-called Kuiper belt beyond the orbit of Neptune. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis with distance such as the moon and mars.
+>- Halley is a short-period comet with origin in the so-called Kuiper belt beyond the orbit of Neptune. It has an orbit around the Sun with an approximate periodicity of 76 years, so it is said that the comet is seen only once in a lifetime; but, what would happen if it passed closer to the Earth? In the simulation we will make tests to present the results of this hypothesis with distance such as the moon,mars and a crash distance.
 
 ***
 [Reference] (https://www.scientificamerican.com/espanol/imagenes-de-la-ciencia/ver-un-cometa-como-el-halley-ocurre-solo-una-vez-en-la-vida/) (http://solarsystem.nasa.gov/planets/profile.cfm?Object=Comets&Display=OverviewLong) (https://www.nationalgeographic.es/espacio/cometas-y-asteroides)
 ## Goals:
-Our goal is to simulated the halley's comet trajectory with differents distance, which are mars distance and our main experiment moon distance, why the moon?, because is the closest body to earth.<br>
+Our goal is to simulated the halley's comet trajectory with differents distance, which are mars distance, moon distance and our main experiment the crash distance 3e6, why 3e6?.<br>
 We hope to get realistic experiments for the near future be ready to destroy asteroids.
 ## Methodology
 We follow the next points to resolve this problem:
