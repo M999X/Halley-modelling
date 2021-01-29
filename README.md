@@ -49,7 +49,6 @@ The force of attraction between two masses is directly proportional to the produ
 modeling result.
   > Described below
 ## Initial conditions:
-All simulations were made using the Earth as a reference framework
 * *dt* stands for delta-time, which is the time in seconds that elapses between integrations.
 * All simulations were made using the Earth as a reference framework.
 * The values of *dt* were selected empirically ensuring that each modeling converged to an expected result.
