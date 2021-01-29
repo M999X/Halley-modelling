@@ -60,7 +60,7 @@ modeling result.
   * Mass: 6 x 10^24 kg
   * Orbital speed: [0,0,0] 30 km/sec
 * Halley's Comet:
-  * Position: [0, 4.93e9,0]
+  * Position: [0,4.93e9,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
@@ -72,7 +72,7 @@ modeling result.
   * Mass: 6 x 10^24 kg
   * Orbital speed: [0,0,0] 30 km/sec
 * Halley's Comet:
-  * Position: [0,5.4e7,0]
+  * Position: [0,54.6e9,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
@@ -84,7 +84,7 @@ modeling result.
   * Mass: 6 x 10^24 kg
   * Orbital speed: [0,0,0] 30 km/sec
 * Halley's Comet:
-  * Position: [0,3.8e5,0]
+  * Position: [0,3.84e8,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 3.49
@@ -106,10 +106,12 @@ Go to the folder of the project and and type on a console  `python3 normal_dista
 * Simulation 2: We simulated the halley's comet with mars distance to earth 54.6 million kilometers , we can watch halley's comet create a kind of orbit with earth,originated by the Earth's attractive force. We also simulated with 7 months and we  can see the comet crossed the path of the earth, nevertheless the comet crossed before earth.In other words the earth did not attract halley's comet, this behavior was expected given halley's speed.<br>
 
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance1.png)
-![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_mars_distance7.png)
 
 * Simulation 3: We simulated the halley's comet with moon distance to earth 384,400 km , this chart show us a devastating news, if  halley's comet passes at the same distance that moon, will collide to earth causing the destruction of humanity.<br>
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance1.png)
+
+* Simulation 4:
+![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_crash_distance1.png)
 ## Conclusion:
 This modeling is important because it allows us to understand what happens with different initial conditions of Halley's Comet, such as its position with respect to the Earth, taking the Earth as a frame of reference. 
 
