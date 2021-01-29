@@ -26,10 +26,9 @@ We follow the next points to resolve this problem:
 1. Understanding the problem
  > Halley's comet has a trajectory that allows it to pass close to the Earth every 76 years. The conditions of distance from Earth, its weight, and its speed allow its orbit to be in equilibrium. But when does the equilibrium of the orbit break down and its trajectory gets closer to the Earth, at a distance equal to that of Mars or the Moon? Will the attractive force of the Earth be sufficient for Halley to impact with it?
 
-
 2. Formulate hypotheses
 >What would happen if a disturbance in Halley's orbit caused it to approach the Earth during its trajectory?
-We hypothesize that with a closer distance (far distance equal to the Moon and Mars), the attractive force of the Earth will cause Halley's comet to modify its orbit, colliding with the Earth.
+We hypothesize that with a closer distance (far distance equal to the Moon and Mars or nearest), the attractive force of the Earth will cause Halley's comet to modify its orbit, colliding with the Earth.
 
 3. Define the type of model to be used
 * We will use a simulation system of n-bodies of particles under the influence of the Force of Attraction of the particles involved in the system. In this case Halley and the Earth will be those particles on which Gravitational attraction forces act.
@@ -88,7 +87,18 @@ modeling result.
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
-### Simulation 4 (Crash Distance)
+### Simulation 4 (Attract Impact)
+* Reference:
+* Earth: 
+  * Position: [0, 0, 0]
+  * Mass: 6 x 10^24 kg
+  * Orbital speed: [0,0,0] 30 km/sec
+* Halley's Comet:
+  * Position: [0,3e7,0]
+  * Mass: 2.2×10^14 kg
+  * Orbital speed: [54500,0,0] 54.5 km/sec 
+* dt = 60
+### Simulation 5 (Crash Distance)
 * Reference:
 * Earth: 
   * Position: [0, 0, 0]
