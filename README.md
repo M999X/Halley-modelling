@@ -32,7 +32,7 @@ We hypothesize that with a closer distance (far distance equal to the Moon and M
 
 3. Define the type of model to be used
 * We will use a simulation system of n-bodies of particles under the influence of the Force of Attraction of the particles involved in the system. In this case Halley and the Earth will be those particles on which Gravitational attraction forces act.
-Our simulation is a direct N-body fravitational simulation. Our equations of motion under the influence of mutual gravitational force are integrated numerically.
+Our simulation is a direct N-body gravitational simulation. Our equations of motion under the influence of mutual gravitational force are integrated numerically.
 
 > Force of Attraction (Gravitational Force)
 Two bodies, by the fact of having mass, experience a force of attraction towards other bodies with mass.
