@@ -87,7 +87,18 @@ modeling result.
   * Position: [0,3.84e8,0]
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
-* dt = 3.49
+* dt = 60
+### Simulation 4 (Crash Distance)
+* Reference:
+* Earth: 
+  * Position: [0, 0, 0]
+  * Mass: 6 x 10^24 kg
+  * Orbital speed: [0,0,0] 30 km/sec
+* Halley's Comet:
+  * Position: [0,3e6,0]
+  * Mass: 2.2×10^14 kg
+  * Orbital speed: [54500,0,0] 54.5 km/sec 
+* dt = 60
 ## Requirements:
 * Python3 : `sudo apt-get install python3.8` 
 * Matplotlib: `pip3 install mathplotlib`
