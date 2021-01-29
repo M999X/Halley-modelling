@@ -143,7 +143,7 @@ dt=60      #sec    Paso de 60 segundos
 earth = Particle([0, 0, 0], [0, 0, 0], 6e24)#6
 #4936729700 m distancia de Halley a la Tierra
 ##https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet%27s%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers
-halley = Particle([0,5.4e7,0],[54500,0,0], 2.2e14)#2.2e14)
+halley = Particle([0,54.6e9,0],[54500,0,0], 2.2e14)#2.2e14)
 #¿O redondeamos 4.93 a 5?
 n_steps = int(lenTime/dt)
 
@@ -258,7 +258,7 @@ for particle in particles:
 #ax[2].plot(x,a)
 #ax[2].set(xlabel='time [sec]', ylabel='acceleration [km/s^2]')
 #ax[2].grid()
-plt.title('Halley Speed = [54500,0,0], Halley Position = [0,5.4e7,0]\n Earth Speed = [0,0,0], Earth Position = [0,0,0], dt = 60')
+plt.title('Halley Speed = [54500,0,0], Halley Position = [0,54.6e9,0]\n Earth Speed = [0,0,0], Earth Position = [0,0,0], dt = 60')
 fig.suptitle('Mars Distance 1 Month')
 red_patch = mpatches.Patch(color='red', label='Halley\'s comet')
 green_patch = mpatches.Patch(color='green', label='Earth')
