@@ -88,7 +88,6 @@ modeling result.
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
 ### Simulation 4 (Attract Impact)
-* Reference:
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
@@ -99,7 +98,6 @@ modeling result.
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 60
 ### Simulation 5 (Crash Distance)
-* Reference:
 * Earth: 
   * Position: [0, 0, 0]
   * Mass: 6 x 10^24 kg
@@ -132,13 +130,17 @@ Go to the folder of the project and and type on a console  `python3 normal_dista
 * Simulation 3 (Moon Distance): In the simulation in which Halley is at the average distance of the Moon, no considerable perturbations are perceived in its orbit.<br>
 ![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_moon_distance1.png)
 
-* Simulation 4 (Crash Distance):
-![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_crash_distance1.png)
+* Simulation 4 (Attract Impact):
+In the fourth simulation, we bring Halley's comet to a distance one order of magnitude closer to the Earth, and here the impact of the Earth's attractive force on the comet is already noticeable, modifying its orbit considerably.
+![Test Image 4](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_attract_distance1.png)
+* Simulation 5 (Crash Distance):
+![Test Image 5](https://github.com/M999X/Halley-modelling/blob/main/Results/Simulation_crash_distance1.png)
 
-This model allows us to answer the question, What would happen if Halley approached Earth at a distance equal to  Mars or Earth, described above?
-
+## Conclusion:
+This modeling is important because it allows us to understand what happens with different initial conditions of Halley's Comet, such as its position with respect to the Earth, taking the Earth as a frame of reference. 
 The different results, caused by changes in the initial condition of the distances between the two bodies, are the result of the action of the Earth's attractive force on Halley's comet. The closer they are to each other, the stronger the Force of Attraction will increase.
 Thanks to the universe for putting Halley's comet far away from the earth.
+
 
 
 ## Bibliography:
