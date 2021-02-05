@@ -166,7 +166,7 @@ This modeling is important because it allows us to understand what happens with 
 This model allows us to answer the question What would happen if Halley's orbit were perturbed and its distance from the Earth changed?
 
 The different results, caused by changes in the initial condition of the distances between the two bodies, are the result of the action of the attractive force of the Earth on Halley's comet. The closer they are to each other, the stronger the attractive force. 
-At the end of simulation 3 nothing happened so we decided to create an hypothetical case with a smaller distance 3e6 in this case we could to recreate a new extinction.
+At the end of simulation 3 nothing happened so we decided to create an hypothetical case with a smaller distance 3e6 in this case does not collide due to the orbital speed it has.
 At the end we noticed the importance of modeling and simulation  as well as The International Asteroid Warning Network (IAWN) which also performs observations, orbit computation, modelling and other scientific research related to the impact potential and effects of asteroids on the Earth.
 Thanks to the universe for having put Halley's comet far away from the Earth.
 
