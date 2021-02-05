@@ -1,8 +1,9 @@
 # Halley modeling
-![UNAM](https://www.google.com/imgres?imgurl=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1331834441036140544%2FUk5XcwtW_400x400.jpg&imgrefurl=https%3A%2F%2Ftwitter.com%2Funam_mx&tbnid=27WuR83bIoiboM&vet=12ahUKEwjo9an2mNLuAhVTbqwKHfkoDEIQMygBegUIARDTAQ..i&docid=fLlQvyPH8BP-0M&w=400&h=400&q=unam&client=firefox-b-d&ved=2ahUKEwjo9an2mNLuAhVTbqwKHfkoDEIQMygBegUIARDTAQ)
 ![a4](https://cdn.mos.cms.futurecdn.net/zzCKzkAndgXbTKNoKCUqu9-970-80.jpg.webp)
-
 Halley's comet n-body modeling and simulation
+### Afiliación
+![https://upload.wikimedia.org/wikipedia/commons/7/79/LOGO-COMPUESTO-UNAM-ENES_-_copia.png](https://user-images.githubusercontent.com/28678081/106318209-2e080b80-6235-11eb-944f-4d40f52ecedb.png)                
+Somos estudiantes de 5to semestre (al momento de edición) de la Licenciatura Tecnologías para la Información en Ciencias impartida en la Escuela Nacional de Estudios Superiores, UNAM, Unidad Morelia.
 ## License: 
 GNU General Public License v3.0
 ## Authors: 
