@@ -1,5 +1,5 @@
 # Halley modeling
-![a4](https://cdn.mos.cms.futurecdn.net/zzCKzkAndgXbTKNoKCUqu9-970-80.jpg.webp)
+![a4](https://cdn.mos.cms.futurecdn.net/zzCKzkAndgXbTKNoKCUqu9-970-80.jpg.webp)<br>
 Halley's comet n-body modeling and simulation
 ### Affiliation
 ![https://upload.wikimedia.org/wikipedia/commons/7/79/LOGO-COMPUESTO-UNAM-ENES_-_copia.png](https://user-images.githubusercontent.com/28678081/106318209-2e080b80-6235-11eb-944f-4d40f52ecedb.png)                
