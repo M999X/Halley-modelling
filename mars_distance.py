@@ -123,9 +123,9 @@ class Potential:
             particle.updatePosition(time,save)
 
         return self.system
-
-lenTime=3600.0*24*30  #sec EN 30 días 
-dt=60      #sec    Paso de 60 segundos
+days = 30
+lenTime=3600.0*24*days  #sec EN 5 días
+dt=1.1    #sec    Paso de 1.1 segundos
 
 
 #sun = Particle([0,0,0],[0,0,0], 2e30)
@@ -140,10 +140,12 @@ dt=60      #sec    Paso de 60 segundos
 #pluto = Particle ([0,3.7e12,0], [4748,0,0],1.3e22)
 
 #def __init__(self, p, v, m, dt=1): 
-earth = Particle([0, 0, 0], [0, 0, 0], 6e24)#6
+earth = Particle([0.0, 0, 0], [0.0, 0, 0], 6e24)
 #4936729700 m distancia de Halley a la Tierra
 ##https://solarsystem.nasa.gov/asteroids-comets-and-meteors/comets/1p-halley/in-depth/#:~:text=The%20comet%27s%20closest%20approach%20to,miles%20or%204.94%20million%20kilometers
-halley = Particle([0,54.6e9,0],[54500,0,0], 2.2e14)#2.2e14)
+halley = Particle([0,54.6e9,0],[54500,0,0], 2.2e14)#e9
+moon  = Particle ([0,3.84e8,0], [1000,0,0],  7.34e22)
+
 #¿O redondeamos 4.93 a 5?
 n_steps = int(lenTime/dt)
 
@@ -163,7 +165,8 @@ n_steps = int(lenTime/dt)
 #C = Particle( [0.0, 0.001, 0.0] , [0.0,0.0,0.0], 1e1)
 
 #particles = [sun,mercury,venus,earth,mars,jupiter,saturn,uranus,neptune,pluto]
-particles = [earth,halley]
+particles = [earth,moon,halley]
+#particles = [earth,moon]
 
 twoBody = Potential(particles,dt)
 
@@ -174,7 +177,7 @@ y=[]
 skip=0
 save=False
 for t in range(1,n_steps):
-    if skip == 1000:
+    if skip == 100000:
         skip=0
         save=True
     system = twoBody.integrate(float(t)*dt,save)
@@ -219,11 +222,13 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 i=0
-c=['g','r','b','g','r','b','g','r','b','g','r','b']
+size = [0.1, 0.1, .9]
+c=['g','b','r','g','r','b','g','r','b','g','r','b']
 for particle in particles:
     time, trajectory = particle.getTrajectory()
-    for x, y in zip(time,trajectory):
-        ax.scatter(y[0], y[1], y[2], marker='o',c=c[i])
+    for x, y in zip(time,trajectory): 
+        print(particle,x,y)
+        ax.scatter(y[0], y[1], y[2],marker='o',c=c[i],s=size[i] )
         #ax.scatter(y[0], y[1], y[2], c=c[i])
     i=i+1
 
@@ -258,9 +263,13 @@ for particle in particles:
 #ax[2].plot(x,a)
 #ax[2].set(xlabel='time [sec]', ylabel='acceleration [km/s^2]')
 #ax[2].grid()
-plt.title('Halley Speed = [54500,0,0], Halley Position = [0,54.6e9,0]\n Earth Speed = [0,0,0], Earth Position = [0,0,0], dt = 60')
-fig.suptitle('Mars Distance 1 Month')
+
+#moon  = Particle ([0,3.84e8,0], [1000,0,0],  7.34e22)
+plt.title('Earth Speed = [0,0,0], Earth Position = [0,0,0] \n Moon Speed = [1000,0,0], Moon Position = [0,3.84e8,0]\n Halley Speed = [54500,0,0], Halley Position = [0,54.6e9,0]\n dt = %1.1f s'%dt)
+#plt.title('Halley Speed = [54500,0,0], Halley Position = [0,4.93e9,0]\n Earth Speed = [0,0,0], Earth Position = [0,0,0], dt = %1.1f s'%dt)
+fig.suptitle('Moon and Halley orbit simulation for %1.0f days'%days)
 red_patch = mpatches.Patch(color='red', label='Halley\'s comet')
 green_patch = mpatches.Patch(color='green', label='Earth')
-plt.legend(handles=[red_patch,green_patch],loc='lower left')
+blue_patch = mpatches.Patch(color='blue', label='Moon')
+plt.legend(handles=[green_patch,blue_patch,red_patch],loc='lower left')
 plt.show()
