@@ -142,11 +142,15 @@ It is observed that the Moon's orbit is closed, converging to an ellipse.<br>
 ![Moon Orbit](https://github.com/M999X/Halley-modelling/blob/main/Results/Moon_Orbit_Simulation_30_days.png)
 <br>
 
-* Modeling 2. Normal Distance: Modeling with the three bodies allows us to observe the scales of the distances at which Halley and the Moon are located. As far as the Moon is concerned, it can be confusing when looking at its orbit, but what is happening is that the scales of the y-axis and the x-axis are different. One is on scale e^9 and the other is on scale e^11.We canWe can see that the Moon's orbit is maintained and, furthermore, that we can simulate Halley's orbit.<br>
+* Modeling 2. Normal Distance: Modeling with the three bodies allows us to observe the scales of the distances at which Halley and the Moon are located. As far as the Moon is concerned, it can be confusing when looking at its orbit, but what is happening is that the scales of the y-axis and the x-axis are different. One is on scale e^9 and the other is on scale e^11.We can see that the Moon's orbit is maintained and, furthermore, that we can simulate Halley's orbit.<br>
 ![Normal Distance](https://github.com/M999X/Halley-modelling/blob/main/Results/Halley_Moon_Earth/Normal_Distance.png)
 <br>
-* Modelig 3 (Mars Distance): Our first result shows that if Halley passes at a distance equal to that of Mars, the force of attraction to the Earth will not be sufficient to notice a significant change in its orbit.<br>
-![Mars Distance](s)<br>
+* Modelig 3 (Mars Distance): In this modeling, a curious thing happens with the visualization, because as 
+the units of the positions are in very large magnitudes, the image is adjusted to those quantities; giving the impression that on Earth and the Moon are joined, but the Moon's orbit is still correct with respect to the Earth.
+
+The result shows that if Halley passes at a distance equal to that of Mars, the force of attraction to the Earth will not be sufficient to notice a significant change in its orbit.
+<br>
+![Mars Distance](https://github.com/M999X/Halley-modelling/blob/main/Results/Halley_Moon_Earth/Halley_at_Mars_Distance.png)<br>
 
 * Modeling 4 (Moon Distance): In the simulation in which Halley is at the average distance of the Moon, no considerable perturbations are perceived in its orbit.<br>
 ![Moon Distance](https://github.com/M999X/Halley-modelling/blob/main/Results/Halley_Moon_Earth/Halley_at_Moon_Distance.png)
