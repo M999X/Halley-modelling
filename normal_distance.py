@@ -125,7 +125,7 @@ class Potential:
         return self.system
 days = 30
 lenTime=3600.0*24*days  #sec EN 5 días
-dt=1.1    #sec    Paso de 60 segundos
+dt=1.1    #sec    Paso de 1.1 segundos
 
 
 #sun = Particle([0,0,0],[0,0,0], 2e30)
@@ -177,7 +177,7 @@ y=[]
 skip=0
 save=False
 for t in range(1,n_steps):
-    if skip == 10000:
+    if skip == 100000:
         skip=0
         save=True
     system = twoBody.integrate(float(t)*dt,save)
@@ -222,12 +222,12 @@ fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
 
 i=0
-size = [0.3, 0.1, .1]
+size = [0.1, 0.1, .9]
 c=['g','b','r','g','r','b','g','r','b','g','r','b']
 for particle in particles:
     time, trajectory = particle.getTrajectory()
     for x, y in zip(time,trajectory): 
-        print(x,y)
+        print(particle,x,y)
         ax.scatter(y[0], y[1], y[2],marker='o',c=c[i],s=size[i] )
         #ax.scatter(y[0], y[1], y[2], c=c[i])
     i=i+1
@@ -265,9 +265,9 @@ for particle in particles:
 #ax[2].grid()
 
 #moon  = Particle ([0,3.84e8,0], [1000,0,0],  7.34e22)
-plt.title('Moon Speed = [1000,0,0], Moon Position = [0,3.84e8,0]\n Earth Speed = [0,0,0], Earth Position = [0,0,0], dt = %1.1f s'%dt)
+plt.title('Earth Speed = [0,0,0], Earth Position = [0,0,0] \n Moon Speed = [1000,0,0], Moon Position = [0,3.84e8,0]\n Halley Speed = [54500,0,0], Halley Position = [0,4.93e9,0]\n dt = %1.1f s'%dt)
 #plt.title('Halley Speed = [54500,0,0], Halley Position = [0,4.93e9,0]\n Earth Speed = [0,0,0], Earth Position = [0,0,0], dt = %1.1f s'%dt)
-fig.suptitle('Moon orbit simulation for %1.0f days'%days)
+fig.suptitle('Moon and Halley orbit simulation for %1.0f days'%days)
 red_patch = mpatches.Patch(color='red', label='Halley\'s comet')
 green_patch = mpatches.Patch(color='green', label='Earth')
 blue_patch = mpatches.Patch(color='blue', label='Moon')
