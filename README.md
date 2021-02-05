@@ -122,7 +122,7 @@ In this one, we will model Halley with the closest distance to Earth on record; 
   * Mass: 2.2×10^14 kg
   * Orbital speed: [54500,0,0] 54.5 km/sec 
 * dt = 1.1 s
-#### Impact Distance
+#### Closer Distance
 * Reference:
 > Average distance from Earth: https://www.space.com/18145-how-far-is-the-moon.html 
 * Earth: 
@@ -155,9 +155,10 @@ The result shows that if Halley passes at a distance equal to that of Mars, the 
 * Modeling 4 (Moon Distance): In the simulation in which Halley is at the average distance of the Moon, no considerable perturbations are perceived in its orbit.<br>
 ![Moon Distance](https://github.com/M999X/Halley-modelling/blob/main/Results/Halley_Moon_Earth/Halley_at_Moon_Distance.png)
 <br>
-* Modeling 5 (Impact Distance):
-In our latest simulation we lowered our simulation by one more order of magnitude and, unlike the previous one, this distance is sufficient to attract Halley to a point where it would collide with the Earth.<br>
-![Impact Distance]()
+* Modeling 5 (Closer Distance):
+In this simulation, the initial conditions of Halley's orbital position place it at a closer distance to the Earth than the average distance of the Moon from the Earth. But something interesting happens, because despite its closeness to the Earth, Halley's mass is still less than that of the Moon, even its orbital velocity is 54 times greater. Therefore, we can see that the comet continues its orbit and does not collide with the Earth, whose attractive force exerted on the comet is not enough to make it collide with the planet.<br>
+
+![Closer Distance](https://github.com/M999X/Halley-modelling/blob/main/Results/Halley_Moon_Earth/Halley_at_Closer_Distance.png)
 
 
 ## Conclusion:
